@@ -1,0 +1,16 @@
+PODS:
+  - CSNetworkServices (0.1.0)
+
+DEPENDENCIES:
+  - CSNetworkServices (from `../`)
+
+EXTERNAL SOURCES:
+  CSNetworkServices:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSNetworkServices: 51b28e2544b0d5f4db9c7325cbc5da6cd4598612
+
+PODFILE CHECKSUM: b19c9386b06fe80bee66b2163caa099cc0ff4d34
+
+COCOAPODS: 1.11.2

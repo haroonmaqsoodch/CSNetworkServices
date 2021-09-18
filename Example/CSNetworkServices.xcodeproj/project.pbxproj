@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		1573F23A5BAE266872A75B88 /* Pods-CSNetworkServices_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSNetworkServices_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CSNetworkServices_Tests/Pods-CSNetworkServices_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DC1F02440F714F222970791 /* CSNetworkServices.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CSNetworkServices.podspec; path = ../CSNetworkServices.podspec; sourceTree = "<group>"; };
-		5FB66D4919E17DAE1B99FF45 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5DC1F02440F714F222970791 /* CSNetworkServices.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CSNetworkServices.podspec; path = ../CSNetworkServices.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5FB66D4919E17DAE1B99FF45 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CSNetworkServices_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSNetworkServices_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		607FACE51AFB9204008FA782 /* CSNetworkServices_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSNetworkServices_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7F1062B12A26C1F23C6180BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7F1062B12A26C1F23C6180BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7FC511F3C91CAEF52BF66CF1 /* Pods-CSNetworkServices_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSNetworkServices_Example.debug.xcconfig"; path = "Target Support Files/Pods-CSNetworkServices_Example/Pods-CSNetworkServices_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		83F6AF7986E1540F7798937E /* Pods_CSNetworkServices_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSNetworkServices_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3C4095259ED3AE85AC42C6 /* Pods-CSNetworkServices_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSNetworkServices_Example.release.xcconfig"; path = "Target Support Files/Pods-CSNetworkServices_Example/Pods-CSNetworkServices_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				1573F23A5BAE266872A75B88 /* Pods-CSNetworkServices_Tests.debug.xcconfig */,
 				D0459927FCB07789ADC8DFF4 /* Pods-CSNetworkServices_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

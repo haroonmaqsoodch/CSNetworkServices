@@ -1,0 +1,6 @@
+framework module CSNetworkServices {
+  umbrella header "CSNetworkServices-umbrella.h"
+
+  export *
+  module * { export * }
+}
