@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		105D85EF20382F30CEB9447ECDFC9601 /* NetworkSerice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFE376F61C32BE8760FA2FE50E84C5C /* NetworkSerice.swift */; };
+		105D85EF20382F30CEB9447ECDFC9601 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFE376F61C32BE8760FA2FE50E84C5C /* NetworkService.swift */; };
 		2447B0335AF5A7406BE303472BCEE1B3 /* CSNetworkServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFE92723EA47A072BAAEDBFF845075F /* CSNetworkServices-dummy.m */; };
 		79257F2A2AFB827A0B0699308FF88E8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9F4B665661926D356E8AC9F55D46FED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -15,6 +15,7 @@
 		CB80F5CE5F1EDC3EA6640FBD599D8B54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D45F129420A4D12DE39349BE84529CD3 /* Pods-CSNetworkServices_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C385F22D5FF3C9E5D32606708B918C71 /* Pods-CSNetworkServices_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAD79B5197CC3DCC8141C0B2837F2BED /* Pods-CSNetworkServices_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A5C5F895276F80C66351E25C3562ED /* Pods-CSNetworkServices_Tests-dummy.m */; };
+		E051D0DC26F83F6800ED6AAF /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E051D0DB26F83F6800ED6AAF /* NetworkErrors.swift */; };
 		E5D4961069C71EA3D6D8CBBFC98B0602 /* CSNetworkServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E32B5B4012EB81FC17C2A440F7FAE8B2 /* CSNetworkServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F225DA430DDEA0305DFF2751AC22613A /* Pods-CSNetworkServices_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EB6F901E50455E51B74C5117B6CC84 /* Pods-CSNetworkServices_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -39,7 +40,7 @@
 /* Begin PBXFileReference section */
 		0206FA9DE5CAABC763D985A67E72E3FC /* Pods-CSNetworkServices_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSNetworkServices_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		02EB6F901E50455E51B74C5117B6CC84 /* Pods-CSNetworkServices_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSNetworkServices_Example-dummy.m"; sourceTree = "<group>"; };
-		0CFE376F61C32BE8760FA2FE50E84C5C /* NetworkSerice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkSerice.swift; path = CSNetworkServices/Classes/NetworkSerice.swift; sourceTree = "<group>"; };
+		0CFE376F61C32BE8760FA2FE50E84C5C /* NetworkService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkService.swift; path = CSNetworkServices/Classes/NetworkService.swift; sourceTree = "<group>"; };
 		0ED1F828484A3A2BB72620BC0AF4CB92 /* Pods-CSNetworkServices_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSNetworkServices_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0F3F39936B126999C10A883143F54BD9 /* CSNetworkServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSNetworkServices.release.xcconfig; sourceTree = "<group>"; };
 		1A7ABB228E6FFBE5242988F3CFCE4A42 /* Pods-CSNetworkServices_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSNetworkServices_Tests.modulemap"; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		D1C4E58243542B90FAD001D63AF7CF59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D765837281F0746AF12913F7DE5C40C8 /* Pods-CSNetworkServices_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSNetworkServices_Example-Info.plist"; sourceTree = "<group>"; };
 		DC211999694E61B0FD5DA6A717EECE1A /* CSNetworkServices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSNetworkServices-prefix.pch"; sourceTree = "<group>"; };
+		E051D0DB26F83F6800ED6AAF /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkErrors.swift; path = CSNetworkServices/Classes/NetworkErrors.swift; sourceTree = "<group>"; };
 		E32B5B4012EB81FC17C2A440F7FAE8B2 /* CSNetworkServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSNetworkServices-umbrella.h"; sourceTree = "<group>"; };
 		ECFE92723EA47A072BAAEDBFF845075F /* CSNetworkServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSNetworkServices-dummy.m"; sourceTree = "<group>"; };
 		EFD84F4EF336A146F6E028B3D81AA3CF /* CSNetworkServices-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CSNetworkServices-Info.plist"; sourceTree = "<group>"; };
@@ -205,19 +207,20 @@
 		E0637C8A26F5B6E700068944 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				E53088E49437DEC560132D27ADBF09F7 /* CSNetworkServices */,
+				E53088E49437DEC560132D27ADBF09F7 /* NetworkService */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		E53088E49437DEC560132D27ADBF09F7 /* CSNetworkServices */ = {
+		E53088E49437DEC560132D27ADBF09F7 /* NetworkService */ = {
 			isa = PBXGroup;
 			children = (
-				0CFE376F61C32BE8760FA2FE50E84C5C /* NetworkSerice.swift */,
+				0CFE376F61C32BE8760FA2FE50E84C5C /* NetworkService.swift */,
+				E051D0DB26F83F6800ED6AAF /* NetworkErrors.swift */,
 				3CDA5C936C9CDBD1B7B9621B80F76769 /* Pod */,
 				50AB80176BE539BE39BC2E46F8448BEA /* Support Files */,
 			);
-			name = CSNetworkServices;
+			name = NetworkService;
 			path = ../../..;
 			sourceTree = "<group>";
 		};
@@ -392,7 +395,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2447B0335AF5A7406BE303472BCEE1B3 /* CSNetworkServices-dummy.m in Sources */,
-				105D85EF20382F30CEB9447ECDFC9601 /* NetworkSerice.swift in Sources */,
+				105D85EF20382F30CEB9447ECDFC9601 /* NetworkService.swift in Sources */,
+				E051D0DC26F83F6800ED6AAF /* NetworkErrors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
