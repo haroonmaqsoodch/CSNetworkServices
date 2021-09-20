@@ -17,7 +17,7 @@ CSNetworkServices is available through [CocoaPods](https://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CSNetworkServices'
+pod 'CSNetworkServices', '~> 0.1.1'
 ```
 
 ## Author
